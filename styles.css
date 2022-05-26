@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    list-style:none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    display:flex;
+    position: relative;
+    background-image: url('./imagens/topo.png');
+    background-repeat: no-repeat;
+    background-size:100%;
+    height:43vw;
+    width: 100%;
+}
+
+.secHeader{
+    display:flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+figure{
+    border: solid yellow;
+}
+
+.kyloRen{
+    width: 68vw;
+    position: absolute;
+    left: 11%;
+    top:2vh;
+    z-index: 5;
+}
+
+.starImg{
+    position: absolute;
+    top: 46.4vh;
+    left: 19.8%;
+    width: 23vw;
+}
+.warsImg{
+    position: absolute;
+    top: 55.7%;
+    left: 64.5%;
+    width: 23vw;
+}
+
+.headerBox{
+    background-image:url('./imagens/storm-red.png');
+    display: flex;
+   justify-content: space-around;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: absolute;
+    top: 93%;
+    z-index: 20;
+    left: 14%;
+    width: 21vw;
+    height: 28vw;
+}
+
+
+.mainBox{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.titleBox{
+    font-size: 2vw;
+    font-family:'Open Sans', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 35vh;
+}
+
+.textBox{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 45%;
+    left: 12%;
+    width: 78%;
+    height: 15%;
+}
+.textBox p{
+    color: white;
+    font-weight: lighter;
+    font-size: 1vw;
+    font-family:'Open Sans', sans-serif;
+}
+.btnBox{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:70%;
+    left:5%;
+    width: 20vw;
+}
+.textFooter{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    height: 7%;
+    top: 82%;
+    left: 62%;
+    width:8vw;
+}
+.textFooter p{
+    color: white;
+    font-size: 0.5vw;
+    font-family: 'Open Sans', sans-serif;
+}
