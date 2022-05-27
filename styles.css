@@ -25,13 +25,6 @@ header{
     align-items: center;
 }
 
-
-
-
-figure{
-    border: solid yellow;
-}
-
 .kyloRen{
     width: 68vw;
     position: absolute;
@@ -64,7 +57,7 @@ figure{
     z-index: 20;
     left: 14%;
     width: 21vw;
-    height: 28vw;
+    height: 33vw;
 }
 
 
@@ -72,13 +65,19 @@ figure{
     display:flex;
     justify-content: center;
     align-items: center;
+    width: 50%;
+    height: 30%;
+    margin-left: 4vw;
+    margin-top: 6vh;
 }
 .titleBox{
-    font-size: 2vw;
+    font-size: 2.5vw;
     font-family:'Open Sans', sans-serif;
     color: white;
     text-transform: uppercase;
-    margin-bottom: 35vh;
+    font-weight: 900;
+    letter-spacing: 3px;
+
 }
 
 .textBox{
@@ -86,7 +85,7 @@ figure{
     justify-content: center;
     justify-content: space-evenly;
     position: absolute;
-    top: 45%;
+    top: 48%;
     left: 12%;
     width: 78%;
     height: 15%;
@@ -103,16 +102,27 @@ figure{
     align-items: center;
     justify-content: center;
     position: absolute;
-    top:70%;
-    left:5%;
-    width: 20vw;
+    bottom:16%;
+    right:5vw;
+    width: 50%;
+    height: 8%;
+    border-radius:10%;
+    background-color:transparent;
+    color:white;
+    border-color: white;
 }
+
+a:visited{
+    color:white;
+}
+
 .textFooter{
     display: flex;
     justify-content: center;
+    align-items: center;
     position: absolute;
     height: 7%;
-    top: 82%;
+    top: 90%;
     left: 62%;
     width:8vw;
 }
@@ -120,4 +130,127 @@ figure{
     color: white;
     font-size: 0.5vw;
     font-family: 'Open Sans', sans-serif;
+}
+
+.headerMenu{
+    display: flex;
+    flex-wrap: wrap;
+    width:10vw;
+    height:20vh;
+    position:absolute;
+    top:62vh;
+    right:12vw;
+
+}
+
+.headerMenu h2{
+    font-weight:400;
+    font-size:1.5vw;
+}
+.titleMenu {
+    font-weight:400;
+    font-size:1.5vw;
+    margin-top: 2vw;
+  
+}
+.headerText{
+    font-size:1.2vw;
+  
+}
+
+.btnOne{
+    width:1.5vw;
+    position:absolute;
+    background-color:#C1C0C0;
+    border:none;
+    border-radius:0;
+    top:15.5vh;
+    left:4vw;
+    cursor:pointer;
+   
+}
+.btnTwo{
+    width:1.5vw;
+    position:absolute;
+    background-color:#C1C0C0;
+    border:none;
+    border-radius:0;
+    top:15.5vh;
+    left:6vw;
+    cursor:pointer;
+   
+}
+main{
+    height: 100vh;
+}
+
+
+.mainOne{
+    position: relative;
+    height: 70vw;
+    background-image: url('./imagens/sta\ uo\ robot.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.mainImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 70.4%;
+    top: 18%;
+
+}
+.mainImg img{
+    width: 21vw;
+  
+}
+
+.batleLine{
+    width: 9%;
+    height: 0.2%;
+    background-color: black;
+    position: absolute;
+    left: 60.5%;
+    top: 22%;
+}
+
+.batleText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 6%;
+    top: 16%;
+    position: absolute;
+    left: 54%;
+    font-weight: 900;
+}
+.batleText h3{
+    text-transform: uppercase;
+    font-size: 1.5vw;
+    font-family:'Open Sans', sans-serif;
+}
+.batleMain{
+    width: 24%;
+    position: absolute;
+    top:24%;
+    left: 46%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    height: 12%;
+}
+.batleMain p{
+    font-size: 1.1vw;
+    font-weight: bolder lighter;
+}
+.mainLine{
+    position: absolute;
+    top: 50%;
+    left: 14%;
+    width: 77vw;
+    height: 0.5vh;
+    background-color: grey;
 }
