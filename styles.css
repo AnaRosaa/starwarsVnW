@@ -254,3 +254,88 @@ main{
     height: 0.5vh;
     background-color: grey;
 }
+.imageSection{
+    display: flex;
+    position: relative;
+    width: 90vw;
+    height: 100vh;
+    top:60vh;
+    left:2%;
+}
+
+.imageSection figure{
+    width: 40vw;
+}
+.VilainOne{
+    display: flex;
+    position: absolute;
+    z-index: 20;
+    top:11.6%;
+    left: 13%;
+}
+.VilainOne img{
+    width: 40vw;
+}
+
+.HeroineOne{
+    position: absolute;
+    display: flex;
+    left: 71%;
+    top: 17.5vh;
+    z-index: 30;
+}
+.HeroineOne{
+    width: 20vw;
+}
+.mainTwo{
+    display: flex;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color:#2D2D2D;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+nav{
+    width:35%;
+    height: 42vh;
+    position:absolute;
+    top: 66%;
+    left:30%; 
+}
+li{
+    width:100%;
+    font-size:20px;
+    text-align: end;  
+    margin-top:2%;        
+}
+li:hover{
+    background-color:#FF5733;
+    color:white;
+    font-weight:bolder;
+}
+      
+.estructureTitle{  
+    width:20%;
+    text-align: end;       
+    position: absolute;
+    top: 53%;
+    left: 45%;
+    font-size: 3.1vw;
+    font-weight: lighter;
+}
+.specialText{
+    font-weight: 900;
+}
+.textSection{
+    font-size: 35px;
+    font-weight: bolder;
+    color: #ffffff;
+    position: absolute;
+    left: 13%;
+    top: 8%;   
+}
+.mainThree{
+    height: 50vh;
+}
